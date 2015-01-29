@@ -11,14 +11,14 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <title><?= $systemname; ?></title>
              <link href="css/bootstrap.min.css" rel="stylesheet">
+             <link href="css/css.css" rel="stylesheet" type="text/css"/>
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
                 <!-- Include all compiled plugins (below), or include individual files as needed -->
                 <script src="js/bootstrap.min.js"></script>
                 <script src="js/mainpage.js" type="text/javascript"></script>
                 <style>
                         body{
-                            background-image: url("http://wallpaperscraft.com/image/46792/1920x1200.jpg") ;
-                            
+                            background-image: url("http://wallpaperscraft.com/image/46792/1920x1200.jpg") ;                            
                         }
                 </style>
     </head>
@@ -41,7 +41,7 @@
             <ul class="nav navbar-nav" data-name="navbarclick">
               <li><a href="home.php">Save receipts</a></li>
               <li><a href="CostEstimation.php">Cost Estimation </a></li>
-              <li><a href="#">Initial Cost Data</a></li>
+              <li><a href="initialcostdata.php">Initial Cost Data</a></li>
                 <li><a href="#">Fix Cost Data</a></li>
                 <li><a href="#">Summarize</a></li>
               
@@ -78,8 +78,6 @@
          <hr>
          <label class="alert-info"> Your last login on : 2 January 2014, 12.00.33 </label>
       </div>
-
-      
      </div>
     </body>
 </html>

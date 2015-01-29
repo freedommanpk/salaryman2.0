@@ -14,6 +14,7 @@ if($val==1){
 if($sqlSelect!=""){
     ?>
 <form  name="formq1" action="saveCost.php">
+    <input type="text" name="typesave" value="<?=$val?>">
         <LABEL>Select your cost list </LABEL>
         <select class="form-control" id="selectMet" name="selectMet"> 
             <option value="">Please Select</option>

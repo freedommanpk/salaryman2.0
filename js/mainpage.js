@@ -11,7 +11,7 @@ $(document).ready(function(){
                         $('#tabInfo').fadeIn(100);
                     }); 
                  });
-                history.pushState("", "", url+"?id=1"); //url directing 
+                history.pushState("", "", url+"&sessionUserId=1" ); //url directing 
                 $('ul li.active').removeClass('active');
                 $(this).closest('li').addClass('active');
                 e.preventDefault();
